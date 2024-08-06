@@ -1,6 +1,17 @@
+const input = document.querySelectorAll('input');
+
+const handleFocus = ({ target }) =>{
+}
+const handleFocusOut = ({ target }) =>{
+}
+
+input.forEach((input) => input.addEventListener('focus', handleFocus));
+input.forEach((input) => input.addEventListener('focusout', handleFocusOut));
+
 
 const handleSubmit = (event) => {
     event.preventDefault();
+    alert('enviando form..')
 
     const name = document.querySelector('input[name=name]'). value;
     const email = document.querySelector('input[email=emails]'). value;
