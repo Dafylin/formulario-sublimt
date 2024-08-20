@@ -1,0 +1,25 @@
+body{
+    background: rgb(128, 128, 235);
+}
+
+.titulo{
+    text-align: center;
+}
+.formulario{
+    
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    margin-left: 42%;
+    background: white;
+}
+
+.formulario label{
+    font-weight: bold;
+    
+    
+    
+}
+.formulario img{
+    height: 50px;
+}
